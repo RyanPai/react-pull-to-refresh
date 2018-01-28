@@ -223,8 +223,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var loading = _props.loading;
 	      var onRefresh = _props.onRefresh;
 	      var resistance = _props.resistance;
+	      var useContentElScrollTop = _props.useContentElScrollTop;
 
-	      var rest = _objectWithoutProperties(_props, ['children', 'disabled', 'distanceToRefresh', 'hammerOptions', 'icon', 'loading', 'onRefresh', 'resistance']);
+	      var rest = _objectWithoutProperties(_props, ['children', 'disabled', 'distanceToRefresh', 'hammerOptions', 'icon', 'loading', 'onRefresh', 'resistance', 'useContentElScrollTop']);
 
 	      if (disabled) {
 	        return _react2['default'].createElement('div', rest, children);
