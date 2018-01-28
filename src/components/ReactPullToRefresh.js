@@ -58,6 +58,7 @@ export default class ReactPullToRefresh extends Component {
       loading,
       onRefresh,
       resistance,
+      useContentElScrollTop,
       ...rest
     } = this.props;
 
